@@ -11,3 +11,7 @@
     background: url(./light-bulb.jpeg) no-repeat center;
     background-size: contain;
 }
+
+a {
+    font-size: 40px;
+}
