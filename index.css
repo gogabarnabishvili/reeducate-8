@@ -1,0 +1,13 @@
+.box {
+    width: 1000px;
+    height: 1000px;
+}
+
+.background-1 {
+    background: url(./light.jpg) center;
+}
+
+.background-2 {
+    background: url(./light-bulb.jpeg) no-repeat center;
+    background-size: cover;
+}
