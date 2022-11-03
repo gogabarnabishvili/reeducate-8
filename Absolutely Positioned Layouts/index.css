@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.wraper {
+    width: 800px;
+    height: 750px;
+    border: 2px dashed red;
+    margin: 40px auto;
+    border-radius: 8px;
+    position: relative;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 28%;
+    margin: 0 auto;
+    background-color: aqua;
+    position: fixed;
+    z-index: 5;
+}
+
+.ulLI {
+    font-size: 24px;
+}
+
+.title {
+    margin-left: 20px;
+}
+
+.olLi {
+    font-size: 22px;
+}
+
+.box {
+    width: 100px;
+    height: 400px;
+    padding: 15px 25px;
+    font-size: 22px;
+    border: 3px solid black;
+    position: absolute;
+    top: 250px;
+}
+
+.box1 {
+    left: 50px;
+}
+
+.box2 {
+    left: 250px;
+}
+
+.box3 {
+    left: 450px;
+}
+
+.box4 {
+    left: 650px;
+}
+
+.boxTwo {
+    border: 3px solid black;
+    font-size: 22px;
+    position: absolute;
+    background-color: white;
+    padding: 20px 25px;
+}
+
+.box5 {
+    width: 150px;
+    height: 150px;
+    top: 300px;
+    left: 20px;
+}
+
+.box6 {
+    height: 200px;
+    width: 150px;
+    top: 370px;
+    left: 120px;
+}
+
+.box7 {
+    width: 420px;
+    height: 150px;
+    top: 560px;
+    left: 55px;
+}
+
+.box8 {
+    width: 150px;
+    height: 350px;
+    top: 300px;
+    left: 420px;
+}
+
+.header {
+    width: 750px;
+    height: 150px;
+    position: absolute;
+    border: 3px solid black;
+    margin-top: 50px;
+}
+
+.nav-top {
+    width: 250px;
+    height: 40px;
+    border: 2px solid black;
+    padding: 7px 25px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.top-menu {
+    widows: 200px;
+    height: 30px;
+    border: 2px solid black;
+    padding: 5px 25px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.menu {
+    width: 500px;
+    height: 30px;
+    border: 2px solid black;
+    padding: 5px 25px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}

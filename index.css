@@ -9,5 +9,5 @@
 
 .background-2 {
     background: url(./light-bulb.jpeg) no-repeat center;
-    background-size: cover;
+    background-size: contain;
 }
